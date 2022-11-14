@@ -1,4 +1,4 @@
-import logo from 'https://cms.cdn.91app.com/images/original/2454/a35f7f73-7680-41ea-afe1-ae4ae9100309-1665975215-eb0pye8eeb_m_1200x1750_800x1167_400x583.jpg';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,6 +8,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello from V2</h1>
       </header>
+      <a
+          className="App-link"
+          href="http://www.kimo.com.tw"
+          target="_blank"
+          rel="noopener noreferrer"
+      >
+          Learn React
+      </a>
     </div>
   );
 }
