@@ -7,8 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello from V2</h1>
-      </header>
-      <a
+        <a
           className="App-link"
           href="http://www.kimo.com.tw"
           target="_blank"
@@ -16,6 +15,8 @@ function App() {
       >
           Learn React
       </a>
+      </header>
+
     </div>
   );
 }
